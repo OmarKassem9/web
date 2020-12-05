@@ -1,0 +1,50 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: calibri;
+}
+body{
+	background-image:url("https://homehotel.files.wordpress.com/2010/08/room-6-a.jpg");
+	background-size: cover;	
+}
+
+.Login-Form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	color: white;
+}
+
+
+.Login-Form h1{
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 40px 0;
+}
+.Login-Form label {
+	font-size: 25px;
+	margin: 15px 0;
+}
+.Login-Form input{
+	font-size: 16px;
+	padding: 15px 10px;
+	width: 100%;
+	border: 0;
+	border-radius: 5px;
+	outline: none;
+}
+.Login-Form button{
+	font-size: 18px;
+	font-weight: bold;
+	margin: 10px 0;
+	padding: 10px 15px;
+	width: 50%;
+	border: 0;
+	border-radius: 5px;
+	background-color: #5e666e;
+	cursor: pointer;
+	color: white;
+}
